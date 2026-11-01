@@ -85,7 +85,7 @@ function App() {
               Chinwendu <span>Oka.</span>
             </h1>
 
-            <h2>Junior Full-Stack Developer</h2>
+            <h2>Full-Stack Developer</h2>
 
             <p className="hero-description">
               I build web experiences and backend applications, turning ideas
