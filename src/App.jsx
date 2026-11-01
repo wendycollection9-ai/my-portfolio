@@ -100,6 +100,13 @@ function App() {
               <a className="button button-secondary" href="#contact">
                 Contact Me
               </a>
+              <a
+                className="button button-secondary"
+                href="/Esther_Chinwendu_Oka_CV.pdf"
+                download
+              >
+                Download My CV ↓
+              </a>
             </div>
 
             <div className="hero-note">
