@@ -46,7 +46,18 @@ const projects = [
       "https://github.com/wendycollection9-ai/inventory-management-system-2",
     number: "03",
    
-    icon: "▤",
+       icon: "▤",
+  },
+  {
+    title: "D&E CO Ltd Solar Energy Website",
+    category: "FRONTEND DEVELOPMENT",
+    description:
+      "A responsive business website showcasing solar energy solutions, company information, services, and customer contact options.",
+    technologies: ["HTML", "CSS"],
+    github: "https://github.com/wendycollection9-ai/D-E-Solar-Website",
+    number: "04",
+    liveUrl: "https://d-e-solar-website.onrender.com",
+    icon: "☀",
   },
 ];
 
@@ -239,7 +250,7 @@ function App() {
               {projects.map((project) => (
                 <article className="project-card" key={project.title}>
                   <div className="project-top">
-                    <span className="project-number">{project.number} / 03</span>
+                    <span className="project-number">{project.number} / 04</span>
                     <span className="project-icon">{project.icon}</span>
                   </div>
 
